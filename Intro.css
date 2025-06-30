@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.try {
+    color: green;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 20px;
+
+    }
+
+.Last {
+    margin-bottom: 0%;
+    animation-name: color;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+    @keyframes example {
+        0% {background-color: aliceblue;}
+        15% {background-color: blueviolet;}
+        25% {background-color: aqua;}
+        35% {background-color: #f0f;}
+        50% {background-color: blue;}
+        65% {background-color: #ae00ff;}
+        75% {background-color: rgb(255, 251, 0);}
+        100% {background-color: green;}
+    }
+
+
+    @keyframes color {
+        0% {color: #ae00ff;}
+        10% {color: #f0f;}
+        20% {color: aliceblue;}
+        30% {color: aqua;}
+        40% {color: blue;}
+        50% {color: chartreuse;}
+        60% {color: tomato;}
+        70% {color: gold;}
+        80% {color: indianred;}
+        90% {color: darkorange;}
+        100% {color: black;}
+    }
+
+h1 {
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
