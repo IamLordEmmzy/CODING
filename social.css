@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: rgb(56, 55, 55);
+  width: 250px;
+  padding: 20px;
+  border: 1px solid rgb(41, 40, 40);
+  border-radius: 10px;
+  box-shadow: 5px 7px 0 0 black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.imageWorld {
+  border-radius: 100%;
+  border: 2px solid #333;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
